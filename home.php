@@ -3,7 +3,7 @@
 <html lang='en'>
 <head>
   <meta charset='UTF-8'>
-  <title>Spinit</title>
+  <title>Freelancers</title>
 </head>
 <body>
   <div id="head">
@@ -12,9 +12,9 @@
   </div>
   <form>
     <ol>
-      <li>A simple and intuitive sign-up system for freelance workers!</li>
-      <li>A refined search system for businesses to find their workers!</li>
-      <li>A simple payment system to reduce hassels!</li>
+      <li>A simple sign-up system for freelance workers.</li>
+      <li>A refined search system for clients to find the best web professional for their projects.</li>
+      <li>A hassle free payment system for everybody!</li>
     </ol>
   </form>
   
