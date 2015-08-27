@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="public/css/skel.css" rel="stylesheet" type="text/css">
+    <link href="public/css/style-xlarge.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header id="header">
+    <h1><a href="home.html">Freelancers</a></h1>
+    <nav id="nav">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="registerCompany.html">Register for Companies</a></li>
+      <li><a href="register.html">Register for Freelancers</a></li>
+      <li><a href="account.html" class="button special">Accounts</a></li>
+    </ul>
+  </nav>
+  </header>
+    <form>
+        <p>First Name</p>
+        <input type="text" id="x">
+        <p>Last Name</p>
+        <input type="text" id="y">
+        <p>Email</p>
+        <input type="text" id="z">
+        <p>Websites</p>
+        <input type="text" id="a">
+        <p>Projects</p>
+        <input type="text" id="b">
+        <p>Password</p>
+        <input type="password" id="c">
+        <p>Re-Enter Password</p>
+        <input type="password" maxlength="15" id="d">
+
+        <button type="button" id="btn"><a href="account.html">Submit</a></button>
+
+    <br>
+
+        <button type="button" id="back"><a href="home.html">Back</a></button>
+
+    <br>
+    </form>
+    <script type="text/javascript">
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', re)
+
+         function re() {
+            var x = document.getElementById("x").value;
+              var y = document.getElementById("y").value;
+            var z = document.getElementById('z').value;
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            var c = document.getElementById('c').value;
+            var d = document.getElementById('d').value;
+            console.log(x);
+            console.log(y);
+            console.log(z);
+            console.log(a);
+            console.log(b);
+            console.log(c);
+            console.log(d);
+        }
+    </script>
+
+    <footer id="footer">
+              <ul class="icons">
+                <li>
+                  <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                </li>
+                <li>
+                  <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                </li>
+                <li>
+                  <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                </li>
+                <li>
+                  <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+</body>
+</html>
