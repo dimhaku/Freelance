@@ -2,14 +2,14 @@
 <html>
 <head>
 </head>
-<body>
+<body>	
   <p>
-firstname
-lastname
-website
-email
-skills
-
+	firstname
+	lastname
+	website
+	portfolio
+	email
+	skills
   </p>
 </body>
 </html>
