@@ -3,13 +3,16 @@
 <head>
    <meta charset="UTF-8">
    <title>Test</title>
-   <script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
 $('#info').onload = function() {
   var queryString="Hello, you are logged in as " + ;
   $.get('account.php,' queryString, function(data) {
     $('#info').html(data);
   });
 };
+});
 </script>
 </head>
 <body>
