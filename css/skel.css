@@ -15,9 +15,10 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
-
+		margin-bottom: 20em;
+		padding-top: 5em;
 		/* width: (containers) */
-		width: 1200px;
+		width: auto;
 	}
 
 	/* Modifiers */
