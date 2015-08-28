@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Test</title>
+   <title>Accounts</title>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
 <script>
+var answer=$.get('account.php', queryString, function(data) {
+    $('#info').html(queryString)});
+var queryString="Hello, you are logged in as " + answer;
 $(document).ready(function(){
 $('#info').onload = function() {
-  var queryString="Hello, you are logged in as " + ;
-  $.get('account.php,' queryString, function(data) {
-    $('#info').html(data);
+  answer=$.get('account.php', queryString, function(data) {
+    $('#info').html(queryString);
   });
 };
 });
 </script>
-</head>
-<body>
   <form id="info">
   </form>
 </body>
