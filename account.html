@@ -1,15 +1,19 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+   <meta charset="UTF-8">
+   <title>Test</title>
+   <script>
+$('#info').onload = function() {
+  var queryString="Hello, you are logged in as " + ;
+  $.get('account.php,' queryString, function(data) {
+    $('#info').html(data);
+  });
+};
+</script>
 </head>
 <body>
-  <p>
-firstname
-lastname
-website
-email
-skills
-
-  </p>
+  <form id="info">
+  </form>
 </body>
 </html>
